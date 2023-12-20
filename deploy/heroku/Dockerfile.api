@@ -1,4 +1,5 @@
 # Deploy the Plane image
 FROM makeplane/plane-backend:latest
+CMD ["./bin/takeoff"]
 
 LABEL maintainer="engineering@plane.so"

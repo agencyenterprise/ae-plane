@@ -1,4 +1,5 @@
 # Deploy the Plane image
 FROM makeplane/plane-frontend:latest
+CMD ["/usr/local/bin/start.sh", "web/server.js", "web"]
 
 LABEL maintainer="engineering@plane.so"
