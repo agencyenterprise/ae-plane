@@ -1,4 +1,4 @@
 # Deploy the Plane image
-FROM makeplane/plane
+FROM makeplane/plane-frontend:latest
 
 LABEL maintainer="engineering@plane.so"

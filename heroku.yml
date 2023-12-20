@@ -1,3 +1,4 @@
 build:
   docker:
-    web: deploy/heroku/Dockerfile
+    web: deploy/heroku/Dockerfile.web
+    api: deploy/heroku/Dockerfile.api
